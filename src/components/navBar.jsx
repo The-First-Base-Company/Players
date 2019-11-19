@@ -29,7 +29,7 @@ const NavBar = () => {
         First Base Company
       </Navbar.Brand>
       <Nav.Link href="/home">
-        <Button variant="danger">
+        <Button variant="secondary">
           <img
             src={homeIcon}
             alt="home"

@@ -686,10 +686,13 @@ class Home extends Component {
                     photoFifthPlayer="https://securea.mlb.com/mlb/images/players/head_shot/571448.jpg"
                     teamFifthPlayer="Rockies"
                   />
+
                 </Card>
+
               </Col>
             </Row>
           </Container>
+          
         </Jumbotron>
       </React.Fragment>
     );
