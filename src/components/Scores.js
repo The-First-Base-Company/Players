@@ -4,11 +4,14 @@ import { Row, Col, Card, Alert, Badge } from "react-bootstrap";
 
 class Results extends Component {
   render() {
+
+    document.body.style.background = "url(https://static.vecteezy.com/system/resources/previews/000/555/687/large_2x/vector-abstract-3d-dark-blue-squares-pattern-repeat-striped-background-and-texture-with-light-luxury-style.jpg)"
+
     return (
       <React.Fragment>
-        <Alert variant="success">
+        <Alert variant="">
           <h1 align="center">
-            <Badge variant="success">Scores</Badge>
+            <Badge variant="dark">Scores</Badge>
           </h1>
         </Alert>
         <main className="container">

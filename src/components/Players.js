@@ -9,20 +9,28 @@ import CardGame from "./cardGame";
 import CardResults from "./cardResults";
 
 
-
-
 class Players extends Component {
+
+
+  
   render() {
+    document.body.style.background = "url(https://image.freepik.com/foto-gratis/tarjeta-plantilla-informe-papel-suave_1258-167.jpg)"
+
     return (
       <React.Fragment> 
+
+
       <Alert variant="">
           <h1 align="center">
             <Badge variant="dark">Players</Badge>
           </h1>
         </Alert>
-        <Jumbotron>
+        
 <Row className="show-grid text-center">
-  <Col sm={8} className="person">
+  
+  
+  
+  <Col sm={4} className="person">
    
     <Card>
     <Card.Header as="h5">Michael Nelson Trout</Card.Header>           
@@ -36,17 +44,22 @@ class Players extends Component {
     <h6>
    <p><b>Nickname:</b> Mike Trout</p>
    <p><b>Born:</b> August 7, 1991 Vineland, New Jersey</p>
-   <p><b>Draft:</b></p> 
-   <p><b>College:</b> </p> 
+   <p><b>Draft:</b> 1st round of the 2009 draft by the Angels</p> 
+   <p><b>College:</b> University of Delaware</p> 
    <p> <b>Debut:</b> July 8, 2011 for the Los Angeles Angels</p>    
     </h6>
     </p>      
     </Card>
-    <br />
 
   </Col>
   </Row>
-        </Jumbotron>
+  
+
+
+
+  
+
+    
     </React.Fragment>  
     )
   }

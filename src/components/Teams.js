@@ -17,6 +17,8 @@ import {
   Alert
 } from "react-bootstrap";
 
+document.body.style.background = "url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQM5dVt6c8r2kH1oLorAZiEaeYoHcz0wiZ5xMTKHAvReHLXkAsv&s)"
+
 const useStyles = makeStyles(theme => ({
   root: {
     width: "100%"
@@ -42,9 +44,9 @@ export default function Teams() {
 
   return (
     <React.Fragment>
-      <Alert variant="primary">
+      <Alert variant="">
         <h1 align="center">
-          <Badge variant="primary">Teams</Badge>
+          <Badge variant="dark">Teams</Badge>
         </h1>
       </Alert>
 
