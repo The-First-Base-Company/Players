@@ -18,7 +18,7 @@ import SigninModal from "./signinModal";
 
 const NavBar = () => {
   return (
-    <Navbar bg="primary" variant="dark">
+    <Navbar bg="dark" variant="dark">
       <Navbar.Brand href="/home">
         <img
           src={logo}
